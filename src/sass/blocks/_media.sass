@@ -9,6 +9,9 @@
             font-size: 18px
     .advantages
         padding: 70px 20px
+    .slick-slide
+        img
+            width: 600px
 @media (max-width: 991px)
     .header
         &__logo
@@ -46,6 +49,22 @@
         padding: 100px 20px 92px 20px
         &__descr
             font-size: 16px
+    .slick
+        &-slide
+            img
+                width: 500px
+                margin: 0 auto
+        &-dots
+            display: flex
+            justify-content: center
+            list-style: none
+            li
+                margin-right: 10px
+    #slick-slide
+        &-control00, &-control01, &-control02
+            padding: 5px
+            border-radius: 100%
+            font-size: 0
 @media (max-width: 767px)
     .title
             font-size: 20px
